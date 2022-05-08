@@ -1,9 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 
 import Header from '../components/Header'
-import MLogo from '../assets/m-logo-black.webp'
 
 const Home: NextPage = () => {
   return (
@@ -28,9 +26,9 @@ const Home: NextPage = () => {
           </h2>
         </div>
         <div>
-          <Image
+          <img
             className="hidden h-32 md:inline-flex lg:h-full"
-            src={MLogo}
+            src="https://raw.githubusercontent.com/cicconewk/modium/assets/m-logo-black.webp"
             alt="modium-logo"
           />
         </div>

@@ -1,9 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 
-import ModiumLogo from '../assets/modium-logo.webp'
-import Image from 'next/image'
-
 function Header() {
   return (
     <header className="mx-auto flex max-w-7xl justify-between p-5">
@@ -11,7 +8,7 @@ function Header() {
         <Link href="/">
           <img
             className="w-44 cursor-pointer object-contain"
-            src={ModiumLogo}
+            src="https://raw.githubusercontent.com/cicconewk/modium/assets/modium-logo.webp"
             alt="modium-logo"
           />
         </Link>
